@@ -1,0 +1,197 @@
+@import "bootstrap-5.3.2/scss/bootstrap.scss";
+
+.logontf {
+    width: 100px;
+}
+
+.logoavatar {
+    width: 40px;
+}
+
+
+
+.navbar li a {
+    color: white;
+}
+
+.active {
+    color: white !important;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red !important;
+}
+
+.bg-info {
+    background-color: #141414 !important;
+}
+
+.generi button:hover {
+    background-color: red;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+     display: flex;
+    
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+     .carousel-inner .carousel-item-end.active,
+     .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+        
+    }
+
+     .carousel-inner .carousel-item-start.active,
+     .carousel-inner .carousel-item-prev {
+         transform: translateX(-25%);
+        
+    }
+
+    
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+     transform: translateX(0);
+    
+}
+h1{
+    font-size: 1.5em;
+}
+h2{
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+
+.carousel-control-prev, .carousel-control-next{
+    
+    width: 6vh;
+    height: 6vh;
+    
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer{
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+footer p{
+    color: #808080;
+    font-size: 0.5em;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    
+}
+footer div{
+    text-align: left;
+}
+footer img{
+    width: 25px;
+    margin-bottom: 10px;
+}
+.service{
+    text-align: center;
+    border: 1px solid #808080;
+    width: 15%;
+    color: #808080;
+}
+
+header img{
+    width: 100px;
+}
+header{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%);
+}
+.maindiv{
+    display: flex;
+    
+}
+#main2 h3{
+    font-size: 0.8em;
+    font-weight: 400;
+}
+#main2 p{
+    font-size: 0.6em;
+}
+#main2 button{
+    font-size: 0.6em;
+}
+
+#main2 img{
+    width: 15%;
+    
+}
+.margincustom{
+    margin-left: 330px;
+    margin-right: 270px;
+    
+}
+.bordotop{
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.bordobot
+{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.custom p:hover{
+    background-color: white;
+    color: #808080;
+}
+.main3{
+   
+    font-size: 0.7em;
+}
+.main3 h2{
+    color:gray;
+}
+.main3 span{
+    color: rgb(76, 160, 209);
+    font-size: 0.9em;
+    padding-left: 100px;
+    
+}
+.main3 p{
+    font-size: 0.9em;
+    margin-bottom: 2px;
+}
+.main3 h3{
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 2px;
+}
+.ultrahd{
+    width: 30px;
+    height: auto;
+}
+.paddingcustom{
+    padding-right: 125px;
+}
+.paddingcustom2{
+    padding-left:4px;
+    padding-right: 90px;
+}
+.bg-custom3{
+    background-color: rgb(226, 224, 224);
+    font-weight: bold;
+}
